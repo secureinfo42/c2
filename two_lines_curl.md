@@ -1,5 +1,7 @@
 # Two_lines_curl backdoor
 
+No netcat ? Try this !
+
 ## Victim session
 
 ### connect_back.sh
