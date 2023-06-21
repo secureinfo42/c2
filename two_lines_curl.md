@@ -1,4 +1,4 @@
-# Quick'n Dirty Backdoor with cUrl
+# Two_lines_curl backdoor
 
 ## Victim session
 
